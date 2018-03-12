@@ -1,5 +1,6 @@
 # Background
-About a year ago, I created a Command Line Application Hangman Game that was built in Python. For this project java, was used, however, due to time constraints this project is a blend of CLI and GUI using Java Swing.
+About a year ago, I created a Command Line Application Hangman Game that was built in Python. 
+* For this project java was used, however, due to time constraints this project is a blend of CLI and GUI using Java Swing.
 
 The original Python Command Line Application game may be found and downloaded at https://github.com/tgreenidge/HangmanCLI. The API that was used to create the dictionary is no longer publicly available, since it was provided by LinkedIn as part of an interview process.
 
@@ -46,6 +47,7 @@ User is prompted to select game play, see history, or quit game.
 ## Game Play
 * Below is the diagram that represents shows play in the GUI only.
 
+(/cli1.png)
 * At the start of the game, the user is shown blanks, one for each letter in the secret word.
 
 * Words are restricted to 8 letters, and letters are restricted to 1 letter. When a user submits a letter of word, it is validated to ensure that only letters are submitted.
