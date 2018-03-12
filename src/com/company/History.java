@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class History {
     private static History history = null;
     private static Hangman hangman;
-    private static HashMap<String, Player > players;
+    private static HashMap<String, Player> players;
     private static HashMap<String, ArrayList<Integer> > playerHistory;
 
     private History(Hangman hangman){

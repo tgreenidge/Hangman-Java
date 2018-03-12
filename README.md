@@ -46,11 +46,14 @@ User is prompted to select game play, see history, or quit game.
 
 ## Game Play
 * Below is the diagram that represents shows play in the GUI only.
+![Flow](https://git.generalassemb.ly/tgreenidgeEnt/proj1/tree/master/Flowdiagram.png)
 
-(/cli1.png)
 * At the start of the game, the user is shown blanks, one for each letter in the secret word.
+![Command line prompt](https://git.generalassemb.ly/tgreenidgeEnt/proj1/tree/master/cli12.png)
+![GUI game start](https://git.generalassemb.ly/tgreenidgeEnt/proj1/tree/master/gameStart.png)
 
 * Words are restricted to 8 letters, and letters are restricted to 1 letter. When a user submits a letter of word, it is validated to ensure that only letters are submitted.
+![Error](https://git.generalassemb.ly/tgreenidgeEnt/proj1/tree/master/Error.png)
 
 * Should the user guess an incorrect word or letter, the Hangman gets filled in, one body part at a time. 
 
@@ -60,3 +63,4 @@ User is prompted to select game play, see history, or quit game.
 
 * Game ends if user makes 6 guesses before making correct guess
 
+![Game Loss](https://git.generalassemb.ly/tgreenidgeEnt/proj1/tree/master/gameLoss.png)

@@ -23,6 +23,7 @@ public class Main {
         History history = History.getInstance(hangmanGame);
         boolean isRunning = true;
 
+        System.out.println("");
         do {
             Scanner scanner2 = new Scanner(System.in);
 
